@@ -17,3 +17,12 @@
 # integ_3D.f90 - 3D integration ((for non-prismatic and curved elements)
 # MOD_math.f90 - mathematical functions definitions
 # variable_declare_SLE.f90 - input/output variables declaration
+
+# The following functions/subroutines are developed/extended by the researcher during his time spent within the Wind Blade Research Hub (WBRH) (a collaboration between the University of Bristol and ORE Catapult).
+
+1. subroutine brickshapefun (in module struc_3D.f90)
+2. subroutine brick3D (in module struc_3D.f90)
+3. subroutine cs_elem_3D (in module read_input_SLE.f90)
+4. subroutine sle_elem_connect (in module read_input_SLE.f90)
+5. subroutine gauss_cs_tri (in module mod_gauss.f90)
+6. subroutine expfun_cs (in module integ_3D.f90) (for tri element)
